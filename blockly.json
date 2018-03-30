@@ -1,6 +1,6 @@
 {
   "types": ["button_new", "button_event"],
-  "category": "catBoardGroup",
+  "category": "toolbox",
   "scripts": [
     "blockly/blocks.js",
     "blockly/javascript.js"
