@@ -7,7 +7,7 @@ Blockly.Blocks['button_new'] = {
       .appendField(Blockly.Msg.WEBDUINO_BUTTON_NEW)
       .appendField(new Blockly.FieldDropdown([
         ['A', '35'],
-        ['B', '34']
+        ['B', '27']
       ]), 'pin_')
     this.setOutput(true);
     this.setTooltip('');
