@@ -1,6 +1,6 @@
 Blockly.JavaScript['button_new'] = function (block) {
   var dropdown_pin_ = block.getFieldValue('pin_');
-  var code = 'getButton(board, ' + dropdown_pin_ + ')';
+  var code = 'getPullupButton(board, ' + dropdown_pin_ + ')';
   return [code, Blockly.JavaScript.ORDER_FUNCTION_CALL];
 };
 

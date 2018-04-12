@@ -1,4 +1,4 @@
-Blockly.Msg.WEBDUINO_BUTTON_NEW = "按钮开关";
+Blockly.Msg.WEBDUINO_BUTTON_NEW = "上拉按钮开关";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_WHEN = "当";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_WAS = "进行";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_TO = "时";
