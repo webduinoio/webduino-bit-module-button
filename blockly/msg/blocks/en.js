@@ -1,4 +1,5 @@
 Blockly.Msg.WEBDUINO_BUTTON_NEW = "Pull-up Button";
+Blockly.Msg.WEBDUINO_BUTTON_PIN = "Button Pin";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_WHEN = "When";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_WAS = "is";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_TO = "";
