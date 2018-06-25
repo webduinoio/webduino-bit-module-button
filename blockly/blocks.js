@@ -16,6 +16,18 @@ Blockly.Blocks['button_new'] = {
   }
 };
 
+Blockly.Blocks['button_pin_get'] = {
+  init: function () {
+    this.appendDummyInput()
+      .appendField(Blockly.Msg.WEBDUINO_BUTTON_PIN)
+      .appendField(new Blockly.FieldDropdown(Code.getPinDropdown), 'pin_')
+    this.setOutput(true);
+    this.setTooltip('');
+    this.setColour(230);
+    this.setHelpUrl(mainUrl + 'basic/component/button.html' + utmUrl);
+  }
+};
+
 Blockly.Blocks['button_event'] = {
   init: function () {
     this.appendDummyInput()
