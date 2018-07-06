@@ -6,6 +6,7 @@
     "blockly/javascript.js"
   ],
   "dependencies": [
+    "BitButton.js",
     "BitButton-blockly.js"
   ],
   "msg": "blockly/msg",
