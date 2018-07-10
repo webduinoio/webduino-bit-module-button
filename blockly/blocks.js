@@ -49,3 +49,27 @@ Blockly.Blocks['button_event'] = {
     this.setHelpUrl(mainUrl + 'basic/component/button.html' + utmUrl);
   }
 };
+
+Blockly.Blocks['button_event_2'] = {
+  init: function () {
+    this.appendDummyInput()
+      .appendField(Blockly.Msg.WEBDUINO_BUTTON_EVENT_WHEN)
+      .appendField(new Blockly.FieldVariable('button'), 'var_')
+      .appendField(Blockly.Msg.WEBDUINO_BUTTON_AND)
+      .appendField(new Blockly.FieldVariable('button2'), 'var2_')
+      .appendField(Blockly.Msg.WEBDUINO_BUTTON_EVENT_ARE)
+      .appendField(new Blockly.FieldDropdown([
+        [Blockly.Msg.WEBDUINO_BUTTON_EVENT_PRESSED, 'pressed'],
+        [Blockly.Msg.WEBDUINO_BUTTON_EVENT_RELEASED, 'released'],
+        [Blockly.Msg.WEBDUINO_BUTTON_EVENT_LONGPRESS, 'longPress']
+      ]), 'event_')
+      .appendField(Blockly.Msg.WEBDUINO_BUTTON_EVENT_TO);
+    this.appendStatementInput('do_')
+      .appendField(Blockly.Msg.WEBDUINO_BUTTON_EVENT_DO);
+    this.setPreviousStatement(true);
+    this.setNextStatement(true);
+    this.setTooltip('');
+    this.setColour(65);
+    this.setHelpUrl(mainUrl + 'basic/component/button.html' + utmUrl);
+  }
+};

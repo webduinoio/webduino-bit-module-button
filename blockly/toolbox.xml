@@ -12,4 +12,5 @@
     </value>
   </block>
   <block type="button_event"></block>
+  <block type="button_event_2"></block>
 </category>
