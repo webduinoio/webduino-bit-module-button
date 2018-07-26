@@ -1,6 +1,6 @@
 {
   "name": "webduino-bit-module-button",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Button Module for Webduino:bit",
   "repository": "https://github.com/webduinoio/webduino-bit-module-button.git",
   "homepage": "https://webduino.io",
