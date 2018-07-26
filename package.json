@@ -4,7 +4,7 @@
   "description": "Button Module for Webduino:bit",
   "repository": "https://github.com/webduinoio/webduino-bit-module-button.git",
   "homepage": "https://webduino.io",
-  "main": "BitButton.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

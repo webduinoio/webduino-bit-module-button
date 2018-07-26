@@ -1,9 +1,14 @@
-+(function (window, webduino) {
++(function (factory) {
+  if (typeof exports === 'undefined') {
+    factory(window, window.webduino);
+  } else {
+    module.exports = factory;
+  }
+}(function (scope, webduino) {
 
   'use strict';
 
-  window.getButton = function (board, pin) {
+  scope.getButton = function (board, pin) {
     return new webduino.module.Button(board, board.getDigitalPin(pin));
-  }
-
-}(window, window.webduino));
+  };
+}));
