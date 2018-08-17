@@ -1,5 +1,5 @@
 # webduino-bit-module-button
-Module for Webduino:bit Button.
+Module for push button switches of Webduino:bit.
 
 ## Installation
 #### bower
