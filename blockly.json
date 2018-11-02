@@ -1,6 +1,6 @@
 {
   "types": ["button_new", "button_event"],
-  "category": "toolbox",
+  "category": "catMenu2",
   "scripts": [
     "blockly/blocks.js",
     "blockly/javascript.js"
