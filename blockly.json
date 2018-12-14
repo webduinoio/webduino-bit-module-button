@@ -1,5 +1,5 @@
 {
-  "types": ["button_new", "button_event"],
+  "types": ["button_new_bit", "button_pin_get_bit", "button_event_2_bit"],
   "category": "catMenu2",
   "scripts": [
     "blockly/blocks.js",

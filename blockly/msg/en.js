@@ -1,1 +1,1 @@
-MSG.catButton = "Button Switch";
+MSG.catButton_bit = "Button Switch";

@@ -1,5 +1,5 @@
-Blockly.Msg.WEBDUINO_BUTTON_NEW = "上拉按鈕開關";
-Blockly.Msg.WEBDUINO_BUTTON_PIN = "按鈕腳位";
+Blockly.Msg.WEBDUINO_BUTTON_NEW_BIT = "(Bit) 上拉按鈕開關";
+Blockly.Msg.WEBDUINO_BUTTON_PIN_BIT = "(Bit) 按鈕腳位";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_WHEN = "當";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_WAS = "進行";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_ARE = "進行";

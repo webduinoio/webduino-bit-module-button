@@ -1,16 +1,16 @@
-<category id="catButton" index="6">
-  <block type="variables_set" tags="fly,mark1,bit">
+<category id="catButton_bit" index="6" tags="bit">
+  <block type="variables_set" tags="bit">
     <field name="VAR">button</field>
     <value name="VALUE">
-      <block type="button_new"></block>
+      <block type="button_new_bit" tags="bit"></block>
     </value>
   </block>
-  <block type="variables_set" tags="fly,mark1,bit">
+  <block type="variables_set" tags="bit">
     <field name="VAR">button</field>
     <value name="VALUE">
-      <block type="button_pin_get"></block>
+      <block type="button_pin_get_bit" tags="bit"></block>
     </value>
   </block>
   <block type="button_event" tags="fly,mark1,bit"></block>
-  <block type="button_event_2" tags="fly,mark1,bit"></block>
+  <block type="button_event_2_bit" tags="bit"></block>
 </category>

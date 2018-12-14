@@ -1,5 +1,5 @@
-Blockly.Msg.WEBDUINO_BUTTON_NEW = "Pull-up Button";
-Blockly.Msg.WEBDUINO_BUTTON_PIN = "Button Pin";
+Blockly.Msg.WEBDUINO_BUTTON_NEW_BIT = "(Bit) Pull-up Button";
+Blockly.Msg.WEBDUINO_BUTTON_PIN_BIT = "(Bit) Button Pin";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_WHEN = "When";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_WAS = "is";
 Blockly.Msg.WEBDUINO_BUTTON_EVENT_ARE = "are";

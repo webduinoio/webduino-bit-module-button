@@ -1,1 +1,1 @@
-MSG.catButton = "按钮开关";
+MSG.catButton_bit = "按钮开关";

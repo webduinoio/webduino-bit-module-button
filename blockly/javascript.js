@@ -1,10 +1,10 @@
-Blockly.JavaScript['button_new'] = function (block) {
+Blockly.JavaScript['button_new_bit'] = function (block) {
   var dropdown_pin_ = block.getFieldValue('pin_');
   var code = 'getPullupButton(board, ' + dropdown_pin_ + ')';
   return [code, Blockly.JavaScript.ORDER_FUNCTION_CALL];
 };
 
-Blockly.JavaScript['button_pin_get'] = function (block) {
+Blockly.JavaScript['button_pin_get_bit'] = function (block) {
   var dropdown_pin_ = block.getFieldValue('pin_');
   var code = 'getButton(board, bitGPIO(' + dropdown_pin_ + '))';
   return [code, Blockly.JavaScript.ORDER_FUNCTION_CALL];
@@ -18,7 +18,7 @@ Blockly.JavaScript['button_event'] = function (block) {
   return code;
 };
 
-Blockly.JavaScript['button_event_2'] = function (block) {
+Blockly.JavaScript['button_event_2_bit'] = function (block) {
   function genFnName(prefix) {
     var time = Date.now().toString().substr(-4);
     var random = Math.random().toString().substr(-4);
